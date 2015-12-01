@@ -1,0 +1,383 @@
+/*===============================================
+●smart.css  画面の横幅が768pxまで
+===============================================*/
+
+@media only screen and (max-width: 768px) {
+    #menu li{
+    border-bottom: 1px solid #fff;
+  }
+}
+
+
+/*===============================================
+●smart.css  画面の横幅が479pxまで
+===============================================*/
+@media screen and (max-width:479px){
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+
+.slide img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+
+* { 
+	margin : 0 ; 
+	padding : 0 ; 
+}
+
+#container{
+width:100%;
+}
+
+#my_title {
+	font-size: 30px;
+	border-bottom:3px solid #3DA3F6;
+	padding:10px 0;
+}
+
+
+#my_footer { 
+	/*width: 450px;*/
+	height: 15px;
+	margin: 10px;
+	font-size: 80%;
+	text-align:center;
+}
+
+#my_contents {
+	 clear:both;
+	 height: 380px;
+	 position:relative;
+	 padding: 0px 10px;
+}
+
+#menu{
+    display: none;
+  }
+  #menu li{
+    width: 100%;
+  }
+  #menu li a{
+    display: block;
+    padding: 12px 0 10px;
+    background: #3086CC;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  #toggle{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #3DA3F6;
+  }
+  #toggle a{
+    display: block;
+    position: relative;
+    padding: 12px 0 10px;
+    border-bottom: 1px solid #3086CC;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  #toggle:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: #fff;
+  }
+  #toggle a:before, #toggle a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #3086CC;
+  }
+  #toggle a:before{
+    margin-top: -6px;
+  }
+  #toggle a:after{
+    margin-top: 2px;
+  }
+ 
+ #my_top{
+	/*width: 450px;*/
+	margin-bottom: 10px;
+}
+
+/* スライドショー部分の枠 */
+
+/* 文字のせ */
+#img-box{
+  position: relative;
+}
+#img-box-mini{
+  position: absolute;
+  bottom: -150px;
+  left: 0px;
+  width:100%;
+  color: #fff;
+ }
+#img-box-text{
+  text-align: center;
+  width: 100%;
+}
+
+.shadow{
+text-shadow:0px -1px #000,
+	    1px 0px #000,
+	    0px 1px #000,
+	    -1px 1px #000;
+font-size:xx-large;
+}
+
+/* スライドショー */
+
+/* スライドサイズ */
+
+.slider {
+  /*width: 450px;*/
+  height: 280px;
+  overflow: hidden;
+  position: relative;  
+}
+
+.slider .slide {
+  width: 456px;
+  height: 280px;
+  border: 1px solid #fff;
+  float: left;
+}
+
+.slider .slideSet {
+  position: absolute;
+}
+
+/* スライドサイズ */
+
+/* ボタン位置 */
+
+.slider-prev,
+.slider-next {
+	margin-top: -15px;
+	padding: 0;
+	background: none;
+	border: none;
+	position: absolute;
+	top: 50%;
+	font-size: 30px;
+	line-height: 1;
+	cursor: pointer;
+}
+
+/* ボタン位置 */
+
+/* 前へ */
+
+.slider-prev {
+	left: 12px;
+	background-image:url('../images/leftI.png');
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+
+/* 前へ */
+
+/* 次へ */
+
+.slider-next {
+	right: 12px;
+	background-image:url('../images/rightI.png');
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+
+/* 次へ */
+
+/* スライドショー */
+	
+/* 本文 */
+.w01 {
+	border-style :inset;
+	width:452px;
+	height: 75px;
+	margin-top: 10px;
+}
+
+
+/*===============================================
+●Aboutページ
+===============================================*/
+#my_contents02 {
+	 clear:both;
+	 height: 600px;
+	 position:relative;
+	 padding: 0px 10px;
+}
+
+
+#my_face {
+	max-width: 270px; /* 最大幅 */
+	min-width: 147px; /* 最小幅 */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.w02 {
+	width:94%;
+	border-style: solid ;
+	border-width: 1px; 
+	padding: 10px 13px 10px 13px; 
+	border-color: #3DA3F6;  
+	background-color: #EFF8FF; 
+	border-radius: 10px;
+}
+
+#my_footer02 { 
+	/*width: 450px;*/
+	height: 15px;
+	margin: 10px;
+	font-size: 80%;
+	text-align:center;
+}
+
+
+
+
+/*===============================================
+●skillページ
+===============================================*/
+#my_contents03 {
+	 clear:both;
+	 height: 500px;
+	 position:relative;
+	 padding: 0px 10px;
+}
+
+#my_footer03 { 
+	clear:both;
+	width: 479px;
+	height: 15px;
+	margin: 10px;
+	font-size: 80%;
+	text-align:center;
+}
+
+#my_skill {
+}
+
+.w03 {
+	clear:both;
+	width:94%;
+	border-style: solid ;
+	border-width: 1px; 
+	padding: 10px 13px 10px 13px; 
+	border-color: #3DA3F6;  
+	background-color: #EFF8FF; 
+	border-radius: 10px;
+}
+
+.my_float01 {
+	float:left;
+	max-width: 100px; /* 最大幅 */
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:70px;
+}
+
+.my_float02 {
+	clear:both;
+	float:left;
+	max-width: 100px; /* 最大幅 */
+	margin-top:70px;
+	margin-left:70px;
+}
+
+.my_float03 {
+	float:left;
+	max-width: 80px; /* 最大幅 */
+	margin-top:60px;
+	margin-left:85px;
+}
+
+.my_float04 {
+	clear:both;
+	float:left;
+	max-width: 100px; /* 最大幅 */
+	margin-top:50px;
+	margin-left:70px;
+}
+
+.my_float05 {
+	float:left;
+	max-width: 100px; /* 最大幅 */
+	margin-top:55px;
+	margin-left:100px;
+	margin-bottom:30px;
+}
+
+.my_float06 {
+	max-width: 100px; /* 最大幅 */
+	margin-top:60px;
+	margin-left:20px;
+}
+
+.my_float06 img{
+	position: absolute;
+	clip: rect(50px 250px 190px 40px);
+}
+
+
+
+
+/*===============================================
+●PRODUCTIONページ
+===============================================*/
+
+.site01{
+	margin-top: 10px;
+}
+
+.site02{
+	margin-top: 10px;
+}
+
+.site03{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sitef{
+	margin-top: 5px;
+	font:small-caption;
+	font-weight:bold;
+}
+
+.w04 {
+	clear:both;
+	width:94%;
+	border-style: solid ;
+	border-width: 1px; 
+	padding: 10px 13px 10px 13px; 
+	border-color: #3DA3F6;  
+	background-color: #EFF8FF; 
+	border-radius: 10px;
+}
+
+}
