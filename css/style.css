@@ -375,13 +375,14 @@ body {
 .site01{
 	margin-top: 10px;
 	margin-bottom:10px;
-	width:50%;
+	margin-right:18px;
+	width:49%;
 	float: left;
 }
 
 .site02{
 	margin-top: 10px;
-	width:50%;
+	width:49%;
 	float: left;
 }
 
@@ -389,7 +390,7 @@ body {
 	clear: both;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width:50%;
+	width:49%;
 }
 
 #sitef{
