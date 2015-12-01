@@ -1,5 +1,5 @@
 /*===============================================
-œstyle.css ‰æ–Ê‚Ì‰¡•‚ª480pxˆÈã
+â—style.css ç”»é¢ã®æ¨ªå¹…ãŒ480pxä»¥ä¸Š
 ===============================================*/
 @media screen and (min-width: 480px){
 img{
@@ -23,7 +23,7 @@ body {
 }
 
 
-/* ƒwƒbƒ_[ */
+/* ãƒ˜ãƒƒãƒ€ãƒ¼ */
 
 #my_header { 
 	width: 373px;
@@ -32,9 +32,9 @@ body {
 	float : left ;
 }
 
-/* ƒwƒbƒ_[ */
+/* ãƒ˜ãƒƒãƒ€ãƒ¼ */
 
-/* ã•”ƒiƒr */
+/* ä¸Šéƒ¨ãƒŠãƒ“ */
 
 #my_navi {
 	 width : 925px ;
@@ -42,9 +42,9 @@ body {
 	 margin-top: 10px;
 }
 
-/* ã•”ƒiƒr */
+/* ä¸Šéƒ¨ãƒŠãƒ“ */
 
-/* ƒƒCƒ“ƒRƒ“ƒeƒ“ƒc */
+/* ãƒ¡ã‚¤ãƒ³ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ */
 
 #my_contents {
 	 clear:both;
@@ -53,9 +53,9 @@ body {
 	 padding: 10px;
 }
 
-/* ƒƒCƒ“ƒRƒ“ƒeƒ“ƒc */
+/* ãƒ¡ã‚¤ãƒ³ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ */
 
-/* ƒTƒuƒ^ƒCƒgƒ‹ */
+/* ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ« */
 
 
 #my_title {
@@ -64,10 +64,10 @@ body {
 	padding:10px 0;
 }
 
-/* ƒTƒuƒ^ƒCƒgƒ‹ */
+/* ã‚µãƒ–ã‚¿ã‚¤ãƒˆãƒ« */
 
 
-/* ƒtƒbƒ^[ */
+/* ãƒ•ãƒƒã‚¿ãƒ¼ */
 
 #my_footer { 
 	width: 970px;
@@ -77,20 +77,20 @@ body {
 	text-align:center;
 }
 
-/* ƒtƒbƒ^[ */
+/* ãƒ•ãƒƒã‚¿ãƒ¼ */
 
-/* ƒXƒ‰ƒCƒhƒVƒ‡[•”•ª‚Ì˜g */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰ã‚·ãƒ§ãƒ¼éƒ¨åˆ†ã®æ  */
 
 #my_top{
 	width: 925px;
 	margin-bottom: 10px;
 }
 
-/* ƒXƒ‰ƒCƒhƒVƒ‡[•”•ª‚Ì˜g */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰ã‚·ãƒ§ãƒ¼éƒ¨åˆ†ã®æ  */
 
-/* ƒXƒ‰ƒCƒhƒVƒ‡[ */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰ã‚·ãƒ§ãƒ¼ */
 
-/* ƒXƒ‰ƒCƒhƒTƒCƒY */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰ã‚µã‚¤ã‚º */
 
 .slider {
   width: 925px;
@@ -110,9 +110,9 @@ body {
   position: absolute;
 }
 
-/* ƒXƒ‰ƒCƒhƒTƒCƒY */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰ã‚µã‚¤ã‚º */
 
-/* ƒ{ƒ^ƒ“ˆÊ’u */
+/* ãƒœã‚¿ãƒ³ä½ç½® */
 
 .slider-prev,
 .slider-next {
@@ -127,9 +127,9 @@ body {
 	cursor: pointer;
 }
 
-/* ƒ{ƒ^ƒ“ˆÊ’u */
+/* ãƒœã‚¿ãƒ³ä½ç½® */
 
-/* ‘O‚Ö */
+/* å‰ã¸ */
 
 .slider-prev {
 	left: 12px;
@@ -139,9 +139,9 @@ body {
 	height: 30px;
 }
 
-/* ‘O‚Ö */
+/* å‰ã¸ */
 
-/* Ÿ‚Ö */
+/* æ¬¡ã¸ */
 
 .slider-next {
 	right: 15px;
@@ -151,10 +151,10 @@ body {
 	height: 30px;
 }
 
-/* Ÿ‚Ö */
+/* æ¬¡ã¸ */
 
 
-/* •¶š‚Ì‚¹ */
+/* æ–‡å­—ã®ã› */
 #img-box{
   position: relative;
 }
@@ -178,9 +178,9 @@ body {
 	           -1px 1px #000;
 }
 
-/* ƒXƒ‰ƒCƒhƒVƒ‡[ */
+/* ã‚¹ãƒ©ã‚¤ãƒ‰ã‚·ãƒ§ãƒ¼ */
 
-/* ƒƒjƒ…[ */
+/* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ */
 #menu{
   width: 100%;
   max-width: 950px;
@@ -208,7 +208,7 @@ body {
  display: none;
 }
 
-/* ‰æ‘œƒTƒCƒY */
+/* ç”»åƒã‚µã‚¤ã‚º */
 
 .img01{
 	width: 100%;
@@ -223,19 +223,24 @@ body {
 	width: 100%;
 }
 
-/* ‰æ‘œƒTƒCƒY */
+/* ç”»åƒã‚µã‚¤ã‚º */
 
-/* –{•¶ */
+/* æœ¬æ–‡ */
 .w01 {
-	border-style :inset;
 	width:920px;
 	height: 75px;
 	margin-top: 10px;
+	border-style: solid ;
+	border-width: 1px; 
+	padding: 10px 5px 10px 20px; 
+	border-color: #3DA3F6;  
+	background-color: #EFF8FF; 
+	border-radius: 10px;
 }
 
 
 /*===============================================
-œAboutƒy[ƒW
+â—Aboutãƒšãƒ¼ã‚¸
 ===============================================*/
 #my_contents02 {
 	 clear:both;
@@ -255,7 +260,7 @@ body {
 
 #my_face {
 	float:left;
-	max-width: 270px; /* Å‘å• */
+	max-width: 270px; /* æœ€å¤§å¹… */
 }
 
 .w02 {
@@ -274,7 +279,7 @@ body {
 
 
 /*===============================================
-œskillƒy[ƒW
+â—skillãƒšãƒ¼ã‚¸
 ===============================================*/
 #my_contents03 {
 	 clear:both;
@@ -311,41 +316,41 @@ body {
 
 .my_float01 {
 	float:left;
-	max-width: 100px; /* Å‘å• */
+	max-width: 100px; /* æœ€å¤§å¹… */
 	margin-top:20px;
 	margin-bottom:20px;
 }
 
 .my_float02 {
 	float:left;
-	max-width: 100px; /* Å‘å• */
+	max-width: 100px; /* æœ€å¤§å¹… */
 	margin-top:70px;
 }
 
 .my_float03 {
 	float:left;
-	max-width: 80px; /* Å‘å• */
+	max-width: 80px; /* æœ€å¤§å¹… */
 	margin-top:60px;
 	margin-left:20px;
 }
 
 .my_float04 {
 	float:left;
-	max-width: 100px; /* Å‘å• */
+	max-width: 100px; /* æœ€å¤§å¹… */
 	margin-top:50px;
 	margin-left:20px;
 }
 
 .my_float05 {
 	float:left;
-	max-width: 100px; /* Å‘å• */
+	max-width: 100px; /* æœ€å¤§å¹… */
 	margin-top:55px;
 	margin-left:20px;
 }
 
 .my_float06 {
 	float:left;
-	max-width: 100px; /* Å‘å• */
+	max-width: 100px; /* æœ€å¤§å¹… */
 	margin-top:60px;
 	margin-left:20px;
 }
@@ -364,7 +369,7 @@ body {
 
 
 /*===============================================
-œPRODUCTIONƒy[ƒW
+â—PRODUCTIONãƒšãƒ¼ã‚¸
 ===============================================*/
 
 .site01{
